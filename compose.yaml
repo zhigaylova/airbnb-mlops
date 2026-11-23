@@ -1,0 +1,7 @@
+services:
+  train:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./model:/app/model
